@@ -1,0 +1,3895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Namespace: API_Extraction</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Namespace: API_Extraction</h1>
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        API_Extraction
+        </h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">VS_API</div>
+        
+
+        
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line23">line 23</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".annotation"><span class="type-signature">(static) </span>annotation<span class="signature">(DOMNode, value)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure d'annotation originale de F.P. ajoutant la String value passée en paramètre à l'attribut Class du noeud. Aboutit a une chaine de debug retraçant l'historique du noeud.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Chaine a ajouter à DOMNode.className.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line642">line 642</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".biggestChild"><span class="type-signature">(static) </span>biggestChild<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Node}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction renvoyant une référence sur le plus grand enfant du noeud passé en paramètre. Plus grand au sens de la taille des balises contenues.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line372">line 372</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    maxChild - Plus grand enfant de DOMNode.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Node</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".compareTreshold"><span class="type-signature">(static) </span>compareTreshold<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction renvoyant vrai si la taille relative du noeud par rapport à la taille de la page dépasse le seuil "relativeSizeTreshold", faux sinon.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line353">line 353</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - vrai si DOMNode a une taille relative à la page supérieure à relativeSizeTreshold, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".countContentChildren"><span class="type-signature">(static) </span>countContentChildren<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Int}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant le nombre de Noeuds de contenu virtuels parmis les enfants du noeud passé en paramètre.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line488">line 488</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Nombre de Virtual Content Nodes dans DOMNode
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Int</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".countValidChildren"><span class="type-signature">(static) </span>countValidChildren<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Int}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant le nombre de Noeuds valides parmis les enfants du noeud passé en paramètre.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line521">line 521</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Nombre de noeuds valides dans DOMNode
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Int</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".divisible"><span class="type-signature">(static) </span>divisible<span class="signature">(DOMNode, nLevel)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant un booléen indiquant si le noeud courant représente un bloc visuel ou s'il peut être filtré et voir ses enfants adoptés par son parent. Les règles sont testées une à une et dès que les conditions d'application de l'une d'entre elles sont respectées, la fonction retourne un résultat.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>nLevel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">int</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Entier représentant la profondeur courante dans l'arbre des structures visuelles</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line123">line 123</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si le noeud doit être divisé (voir description), faux sinon
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".DOMNodeDivision"><span class="type-signature">(static) </span>DOMNodeDivision<span class="signature">(DOMNode, nLevel, pool)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction récursive réalisant :  1- Filtrage des noeuds non intéressants                                2- Le repérage et l'annotation des Noeuds Atomiques Virtuels(Virtual Content Node)                                3- la non-recopie d'un noeud "divisible", c'est a dire un noeud pouvant être omis dans l'arbre des structures visuelles, ses enfants se voyant adoptés par son parent. Elle parcourt les éléments de l'arbre DOM tant qu'elle ne rencontre pas de bloc visuel, si c'est le cas, le noeud contenant le bloc visuel est ajouté dans la variable pool passée en parametre.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>nLevel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">int</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Entier représentant la profondeur courante dans l'arbre des structures visuelles</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pool</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">List.&lt;Node></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Ensemble des noeuds du DOM qui seront frères dans l'arbre des Structures visuelles</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line40">line 40</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getDOC"><span class="type-signature">(static) </span>getDOC<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction permettant de récupérer les informations du noeud passé en paramètre, stocké dans la chaine annotation.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line656">line 656</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Informations que le plugin d'extraction a associé au noeud DOMNode.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getDOCValue"><span class="type-signature">(static) </span>getDOCValue<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction permettant de récupérer le numéro contenu dans l'information du noeud passé en paramètre, stocké dans la chaine annotation
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line677">line 677</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Numéro dans l'information que le plugin d'extraction a associé au noeud DOMNode.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getFirstValidChild"><span class="type-signature">(static) </span>getFirstValidChild<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Node}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant le premier enfant valide rencontré parmis les enfants du noeud passé en paramètre.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line551">line 551</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Premier noeud valide rencontré, enfant de DOMNode. "" s'il n'existe pas.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Node</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getID"><span class="type-signature">(static) </span>getID<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction permettant de récupérer l'identifiant du noeud passé en paramètre, stocké dans la chaine annotation
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line702">line 702</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Identifiant que le plugin d'extraction a associé au noeud DOMNode.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getNodeSurface"><span class="type-signature">(static) </span>getNodeSurface<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Int}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant la surface occupée par le noeud passé en paramètre
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line469">line 469</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Surface occupée par DOMNode
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Int</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRelativeSize"><span class="type-signature">(static) </span>getRelativeSize<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction permettant de récupérer la taille relative d'un noeud, stockée dans la chaine annotation.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line724">line 724</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Chaine représentant la taille relative de DOMNode.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getSize"><span class="type-signature">(static) </span>getSize<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Int}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction renvoyant la somme des poids des balises contenues dans les enfants du noeud passé en paramètre. Les poids attibués aux différentes balises sont décrits dans le fichier VS_Params.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line593">line 593</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Somme des poids des balises contenues dans les enfants de DOMNode.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Int</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isChildrenSurfaceSup"><span class="type-signature">(static) </span>isChildrenSurfaceSup<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction renvoyant vrai si la somme des surfaces occupées par les enfants est supérieure à celle occupée par le noeud passé en paramètre, faux sinon.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line436">line 436</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si sumChild est supérieur à la surface de DOMNode, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isElementFromPlugin"><span class="type-signature">(static) </span>isElementFromPlugin<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction booléenne unaire testant si le noeud passé en paramètre fait partie ou non des noeuds formant le formulaire de saisie des préférences utilisateur du plugin. Appel à cette fonction dans la fonction divisible afin de ne pas représenter dans l'arbre des Structures Visuelles les noeuds ajoutés par nos soins dans l'arbre de la page.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line747">line 747</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si l'ID de DOMNode contient l'expression "ter__", faux sinon
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isNbContentChildrenSup"><span class="type-signature">(static) </span>isNbContentChildrenSup<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant vrai si le nombre d'enfants noeuds de contenu est supérieur au nombre d'autres enfants.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line574">line 574</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si DOMNode contient une majorité d'enfants noeuds de Contenu, faux sinon
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isSumChildrenSup"><span class="type-signature">(static) </span>isSumChildrenSup<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction renvoyant vrai si la somme des tailles des balises des enfants est supérieure à la taille du noeud.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line401">line 401</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si relativeT est supérieur à sumChild, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".nextValidSibling"><span class="type-signature">(static) </span>nextValidSibling<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Node/Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant le premier successeur valide(non filtrable) du noeud passé en paramètre, renvoie faux s'il n'y en a aucun.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line281">line 281</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - le noeud valide frère suivant DOMNode s'il existe, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Node/Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".previousValidSibling"><span class="type-signature">(static) </span>previousValidSibling<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Node/Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant le premier prédecesseur valide(non filtrable) du noeud passé en paramètre, renvoie faux s'il n'y en a aucun.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line263">line 263</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - le noeud valide frère précédent DOMNode s'il existe, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Node/Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".printNode"><span class="type-signature">(static) </span>printNode<span class="signature">(DOMNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure de debug affichant sur la console les informations du noeud passé en paramètre.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line626">line 626</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".processDoc"><span class="type-signature">(static) </span>processDoc<span class="signature">(DOMNode)</span><span class="type-signature"> &rarr; {Int}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant la taille de la balise contenue dans le noeud passé en paramètre
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line299">line 299</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    retour - Taille de la balise contenue dans DOMNode
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Int</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".visualDistance"><span class="type-signature">(static) </span>visualDistance<span class="signature">(DOMNode1, DOMNode2)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction de comparaison retournant vrai si les deux noeuds passés en paramètres respectent les critères définis de distance visuelle. C'est à dire s'ils ont des propriétés de style qui attestent d'une hétérogénéité de contexte entre eux.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode1</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">un noeud DOM sur lequel sera effectuée la comparaison.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode2</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">l'autre noeud DOM sur lequel sera effectuée la comparaison</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Franck Petitdemange</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line317">line 317</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - vrai si DOMNode1 et DOMNode2 sont visuellement différents, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Namespaces</h3><ul><li><a href="Annotation.html">Annotation</a></li><li><a href="API_Annotation.html">API_Annotation</a></li><li><a href="API_Extraction.html">API_Extraction</a></li><li><a href="Debug.html">Debug</a></li><li><a href="Parametrage.html">Parametrage</a></li><li><a href="Predicats.html">Predicats</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0</a> on Sun May 31 2015 18:18:45 GMT+0200 (Paris, Madrid (heure d’été))
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

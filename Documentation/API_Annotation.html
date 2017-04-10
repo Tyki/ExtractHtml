@@ -1,0 +1,2279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Namespace: API_Annotation</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Namespace: API_Annotation</h1>
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        API_Annotation
+        </h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">VS_API</div>
+        
+
+        
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line18">line 18</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".areChildrenPositionsRegular"><span class="type-signature">(static) </span>areChildrenPositionsRegular<span class="signature">(VSNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction booléenne unaire testant si les enfants du noeud VS passé en paramètre sont disposés de façon régulière. C'est à dire si il sont tous disposés sur une ligne horizontale ou verticale.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1235">line 1235</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si une des coordonnées x ou y est la même pour tous les enfants de VSNode, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".changeChildrenSemantic"><span class="type-signature">(static) </span>changeChildrenSemantic<span class="signature">(VSNode, s)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure mettant à jour la sémantique des enfants du noeud VS passé en paramètre si ces derniers ont la même sémantique que lui, ceci afin de différencier le conteneur du contenu dans le cas présent.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>s</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">string représentant la sémantique associée à VSNode</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1307">line 1307</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".createBasicObjectProperties"><span class="type-signature">(static) </span>createBasicObjectProperties<span class="signature">(DOMNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure créant et initialisant (à leur valeur par défaut), dans le noeud DOMNode passé en paramètre, les différents attributs relatifs aux Objets Basiques. Les appels à cette procédure ont été insérés dans le parcours de l'arbre DOM du script d'Extraction dès qu'un Noeud de Contenu Virtuel (VCN : Virtual Content Node) est détecté.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line768">line 768</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".createCompositeObjectProperties"><span class="type-signature">(static) </span>createCompositeObjectProperties<span class="signature">(DOMNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure créant et initialisant (à leur valeur par défaut), dans le noeud DOMNode passé en paramètre, les différents attributs relatifs aux Objets Composites. Les appels à cette procédure ont été insérés dans le parcours de l'arbre DOM du script d'Extraction dès qu'une Structure Visuelle (VS : Visual Structure) est détectée.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line790">line 790</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getAssociatedDOMNode"><span class="type-signature">(static) </span>getAssociatedDOMNode<span class="signature">(VSNode)</span><span class="type-signature"> &rarr; {Node}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction retournant le noeud de l'arbre DOM dont est issu le noeud de l'arbre des Structures Visuelles passé en paramètre. Utilisée afin de répercuter sur les noeuds de l'arbre DOM les valeurs des attributs modifiés dans l'arbre des Structures Visuelles.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1223">line 1223</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    DOMNode - noeud de l'arbre DOM associé à VSNode
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Node</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getPositionNode"><span class="type-signature">(static) </span>getPositionNode<span class="signature">(VSNode)</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction unaire retournant une string représentant la position dans la page du noeud VS passé en paramètre. Si aucune position ne peut être déterminée, renvoie null. Nécessite d'avoir au préalable initialisé les seuils via un appel à setupRatio (voir plus bas).
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Baptiste Leulliette</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1363">line 1363</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - retourne une des chaines suivantes : "Top", "Bot", "Left", "Right".
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isHorizontal"><span class="type-signature">(static) </span>isHorizontal<span class="signature">(VSNode)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Fonction booléenne unaire testant si les enfants du noeud VS passé en paramètre sont disposés de façon horizontale. C'est à dire si il sont tous disposés sur une ligne horizontale.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1339">line 1339</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    ret - Vrai si une des coordonnées y est la même pour tous les enfants de VSNode, faux sinon.
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".processAllCO"><span class="type-signature">(static) </span>processAllCO<span class="signature">(VSNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure réalisant un parcours en profondeur de l'arbre des Structures Visuelles à partir du noeud passé en paramètre. Pour chaque Objet Composite rencontré, ses propriétés Composites sont déduites de celles des Objets le composant, puis la fonctionnalité qu'il offre est déduite de ces dernières. Cette procédure est appellée après que le script d'extraction ait terminé afin de donner une fonction à tous les Objets Composites de l'arbre des Structures Visuelles en vue d'en déduire leur sémantique.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud courant de l'arbre des Structures Visuelles.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line996">line 996</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".setBasicObjectProperties"><span class="type-signature">(static) </span>setBasicObjectProperties<span class="signature">(DOMNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure analysant le noeud DOM (représentant un Objet Basique) passé en paramètre afin de donner une valeur à ses propriétés basiques telles que définies dans notre démarche (Voir rapport).
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line808">line 808</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".setBasicObjectType"><span class="type-signature">(static) </span>setBasicObjectType<span class="signature">(DOMNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure analysant les propriétés basiques du noeud DOM (représentant un Objet Basique) passé en paramètre afin de donner une valeur à l'attribut ter_type représentant la fonctionnalité offerte à l'utilisateur par cet Objet Basique.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>DOMNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud DOM à traiter</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line945">line 945</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".setCOProperties"><span class="type-signature">(static) </span>setCOProperties<span class="signature">(VSNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure analysant le noeud VS (représentant un Objet Composite) passé en paramètre afin de donner une valeur à ses propriétés Composites telles que définies dans notre démarche (Voir rapport). Cette fonction est appellée dans un contexte où l'on est sur que le noeud passé en paramètre est un Objet Composite.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter. Doit représenter un CO.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1035">line 1035</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".setCOtype"><span class="type-signature">(static) </span>setCOtype<span class="signature">(VSNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure analysant les propriétés Composites du noeud VS (représentant un Objet Composite) passé en paramètre mais aussi l'attribut ter_type représentant la fonctionnalité offerte à l'utilisateur par cet Objet Composite, ceci couplé à la position de l'Objet Composite dans la page nous permet de déterminer la sémantique de cette Structure Visuelle, c'est à dire quelle grande Structure Abstraite du web elle décrit. L'environnement lors de l'appel à cette fonction nous assure que le noeud VS passé en paramètre représente bien un Objet Composite.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter. Doit représenter un CO.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1127">line 1127</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".setRemainingSemantics"><span class="type-signature">(static) </span>setRemainingSemantics<span class="signature">(VSNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure parcourant les enfants du noeud de l'arbre des Structures Visuelles passé en paramètre afin de leur donner une sémantique si le parcours précédent n'a pu leur en donner. C'est ce dernier parcours qui permet la reconnaissance des Structures Visuelles Header, Footer et Content. L'appel à cette fonction est réalisé avec comme paramètre la racine de l'arbre des Structures Visuelles afin de donner une sémantique aux CO lui étant directement apparentés.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Warren Banguet</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1179">line 1179</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".setupRatio"><span class="type-signature">(static) </span>setupRatio<span class="signature">(VSNode)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Procédure initialisant, en fonction des propriétés de taille de la page, les pourcentages seuils permettant de déterminer la position d'une Structure Visuelle dans la page parmis les valeurs Top, Bot, Left, Right
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>VSNode</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Node</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">noeud de l'arbre des Structures Visuelles à traiter.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Baptiste Leulliette</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="VS_API.js.html">VS_API.js</a>, <a href="VS_API.js.html#line1418">line 1418</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    void
+</div>
+
+
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Namespaces</h3><ul><li><a href="Annotation.html">Annotation</a></li><li><a href="API_Annotation.html">API_Annotation</a></li><li><a href="API_Extraction.html">API_Extraction</a></li><li><a href="Debug.html">Debug</a></li><li><a href="Parametrage.html">Parametrage</a></li><li><a href="Predicats.html">Predicats</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0</a> on Sun May 31 2015 18:18:45 GMT+0200 (Paris, Madrid (heure d’été))
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
